@@ -6,7 +6,16 @@ from io import BytesIO
 from PIL import Image
 import tensorflow as tf
 import requests
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # React app
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 endpoint = "http://localhost:8501/v1/models/potato_model:predict"
 
