@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0E2A1F"/>
+  <!-- leaf -->
+  <path d="M120 392 C120 220 228 112 400 112 C400 284 292 392 120 392 Z" fill="#3DBE6B"/>
+  <path d="M120 392 L360 152" stroke="#0E2A1F" stroke-width="12" stroke-linecap="round"/>
+  <path d="M200 312 L190 250 M240 272 L232 206 M280 232 L274 170" stroke="#0E2A1F" stroke-width="8" stroke-linecap="round"/>
+  <!-- disease spots -->
+  <circle cx="300" cy="280" r="16" fill="#8B5A2B"/>
+  <circle cx="250" cy="330" r="10" fill="#8B5A2B"/>
+  <!-- scan frame -->
+  <g stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M84 150 V96 H138"/>
+    <path d="M374 428 H428 V374"/>
+  </g>
+</svg>
