@@ -1,0 +1,13 @@
+# datasets and trained models are not tracked (see README)
+Dataset/
+Datasets/
+models/
+Models/
+*.keras
+*.h5
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.idea/
+node_modules/
+.env
